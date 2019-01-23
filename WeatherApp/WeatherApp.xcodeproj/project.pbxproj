@@ -19,6 +19,10 @@
 		C660B1DB21F9284900899912 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660B1DA21F9284900899912 /* Forecast.swift */; };
 		C660B1DD21F9285800899912 /* PixaBayImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660B1DC21F9285800899912 /* PixaBayImage.swift */; };
 		C660B1DF21F9286C00899912 /* FavoriteImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660B1DE21F9286C00899912 /* FavoriteImageModel.swift */; };
+		C660B1E221F92E5600899912 /* Network Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660B1E121F92E5600899912 /* Network Helper.swift */; };
+		C660B1E421F92E6100899912 /* Image Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660B1E321F92E6100899912 /* Image Helper.swift */; };
+		C660B1E621F92E7000899912 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660B1E521F92E7000899912 /* AppError.swift */; };
+		C660B1E821F92E7900899912 /* Data Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660B1E721F92E7800899912 /* Data Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		C660B1DA21F9284900899912 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		C660B1DC21F9285800899912 /* PixaBayImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixaBayImage.swift; sourceTree = "<group>"; };
 		C660B1DE21F9286C00899912 /* FavoriteImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteImageModel.swift; sourceTree = "<group>"; };
+		C660B1E121F92E5600899912 /* Network Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Helper.swift"; sourceTree = "<group>"; };
+		C660B1E321F92E6100899912 /* Image Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image Helper.swift"; sourceTree = "<group>"; };
+		C660B1E521F92E7000899912 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		C660B1E721F92E7800899912 /* Data Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data Helper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +97,7 @@
 		57EE008C21F15D7000D76A6E /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				57EE009F21F15E0F00D76A6E /* ZipCodeHelper.swift */,
+				C660B1E021F92E3A00899912 /* Network Services */,
 				57EE008F21F15D7000D76A6E /* ViewController.swift */,
 				57EE009121F15D7100D76A6E /* Main.storyboard */,
 				C660B1D621F9281D00899912 /* DetailViewController.swift */,
@@ -120,6 +128,18 @@
 				57EE009621F15D7100D76A6E /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C660B1E021F92E3A00899912 /* Network Services */ = {
+			isa = PBXGroup;
+			children = (
+				57EE009F21F15E0F00D76A6E /* ZipCodeHelper.swift */,
+				C660B1E121F92E5600899912 /* Network Helper.swift */,
+				C660B1E321F92E6100899912 /* Image Helper.swift */,
+				C660B1E521F92E7000899912 /* AppError.swift */,
+				C660B1E721F92E7800899912 /* Data Helper.swift */,
+			);
+			path = "Network Services";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,11 +245,15 @@
 			files = (
 				57EE00A021F15E0F00D76A6E /* ZipCodeHelper.swift in Sources */,
 				57EE009021F15D7000D76A6E /* ViewController.swift in Sources */,
+				C660B1E821F92E7900899912 /* Data Helper.swift in Sources */,
 				C660B1DD21F9285800899912 /* PixaBayImage.swift in Sources */,
 				57EE008E21F15D7000D76A6E /* AppDelegate.swift in Sources */,
 				C660B1D721F9281D00899912 /* DetailViewController.swift in Sources */,
 				C660B1DB21F9284900899912 /* Forecast.swift in Sources */,
+				C660B1E421F92E6100899912 /* Image Helper.swift in Sources */,
 				C660B1D921F9282D00899912 /* FavoriteViewController.swift in Sources */,
+				C660B1E621F92E7000899912 /* AppError.swift in Sources */,
+				C660B1E221F92E5600899912 /* Network Helper.swift in Sources */,
 				C660B1DF21F9286C00899912 /* FavoriteImageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
