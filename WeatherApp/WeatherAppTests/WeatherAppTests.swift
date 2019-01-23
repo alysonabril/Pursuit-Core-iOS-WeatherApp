@@ -20,18 +20,16 @@ class WeatherAppTests: XCTestCase {
   }
   
   func testGetLocationName() {
-    let zipcode = "10023"
+    let zipcode = "07093"
     let exp = expectation(description: "found location name")
     ZipCodeHelper.getLocationName(from: zipcode) { (error, localityName) in
       if let error = error {
         XCTFail("failed to get location name: \(error)")
       } else if let localityName = localityName {
-        XCTAssertEqual(localityName, "New York", "should equal to New York")
+        XCTAssertEqual(localityName, "West New York", "should equal to New Jersey")
       }
       exp.fulfill()
     }
     wait(for: [exp], timeout: 3.0)
   }
-  
-  
 }
