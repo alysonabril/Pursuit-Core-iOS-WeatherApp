@@ -15,6 +15,7 @@
 		57EE00A021F15E0F00D76A6E /* ZipCodeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EE009F21F15E0F00D76A6E /* ZipCodeHelper.swift */; };
 		57EE00A821F15F4E00D76A6E /* WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EE00A721F15F4E00D76A6E /* WeatherAppTests.swift */; };
 		C652EFEB2200EF2F003E4227 /* SecretKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C652EFEA2200EF2F003E4227 /* SecretKeys.swift */; };
+		C652EFED2200F6D6003E4227 /* DataPersistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C652EFEC2200F6D6003E4227 /* DataPersistance.swift */; };
 		C660B1D721F9281D00899912 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660B1D621F9281D00899912 /* DetailViewController.swift */; };
 		C660B1D921F9282D00899912 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660B1D821F9282D00899912 /* FavoriteViewController.swift */; };
 		C660B1DB21F9284900899912 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C660B1DA21F9284900899912 /* Forecast.swift */; };
@@ -49,6 +50,7 @@
 		57EE00A721F15F4E00D76A6E /* WeatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppTests.swift; sourceTree = "<group>"; };
 		57EE00A921F15F4E00D76A6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C652EFEA2200EF2F003E4227 /* SecretKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretKeys.swift; sourceTree = "<group>"; };
+		C652EFEC2200F6D6003E4227 /* DataPersistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistance.swift; sourceTree = "<group>"; };
 		C660B1D621F9281D00899912 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		C660B1D821F9282D00899912 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		C660B1DA21F9284900899912 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				57EE009F21F15E0F00D76A6E /* ZipCodeHelper.swift */,
+				C652EFEC2200F6D6003E4227 /* DataPersistance.swift */,
 				C660B1E121F92E5600899912 /* Network Helper.swift */,
 				C652EFEA2200EF2F003E4227 /* SecretKeys.swift */,
 				C660B1E321F92E6100899912 /* Image Helper.swift */,
@@ -279,6 +282,7 @@
 				C660B1D721F9281D00899912 /* DetailViewController.swift in Sources */,
 				C660B1DB21F9284900899912 /* Forecast.swift in Sources */,
 				C660B1E421F92E6100899912 /* Image Helper.swift in Sources */,
+				C652EFED2200F6D6003E4227 /* DataPersistance.swift in Sources */,
 				C660B1D921F9282D00899912 /* FavoriteViewController.swift in Sources */,
 				C660B1E621F92E7000899912 /* AppError.swift in Sources */,
 				C660B1E221F92E5600899912 /* Network Helper.swift in Sources */,
